@@ -1,15 +1,19 @@
 # RabbitMQ | Consumer/ Producer Routing
+_Stephan Duelund Djurhuus_
 
+<p align="center">
+    <img src="https://res.cloudinary.com/cuongbangoc/image/upload/v1440913221/rabbit-logo_dfefmx.jpg" alt="Cover Image"/>
+</p>
 ## Environment
 Runs on MacOS and uses [brew]() as package manager for [RabbitMQ].
-> the script 'rmq', 'rmq:q' & 'rmq:b' only supports MacOS [see](https://www.rabbitmq.com/cli.html).
+> The script 'rmq', 'rmq:q' & 'rmq:b' only supports MacOS [see](https://www.rabbitmq.com/cli.html).
 ## Prerequisite
 * [Node](https://nodejs.org/en/)
 * [RabbitMQ](https://www.rabbitmq.com/install-homebrew.html)
 
 ## Usage
 
-> **sudo** is used on RabbitMQ commands, see [package.json](package.json) to evaluate scripts.
+> **sudo** is used on RabbitMQ commands, see [package.json](package.json) to validate scripts.
 
 ### 1. Install Packages
 
@@ -24,7 +28,7 @@ yarn
 # bash
 yarn rmq
 ```
-> remember to close the service after using it.
+> Remember to close the service after using it.
 ### 3. Start a Consumer
 
 `<routing key>` defines which route the exchange should direct to.
@@ -34,7 +38,7 @@ yarn rmq
 yarn con <routing key>
 ```
 
-> multiple consumers can be started with different routing keys.
+> Multiple consumers can be started with different routing keys.
 
 ### 4. Start a Producer
 
@@ -60,4 +64,4 @@ yarn rmq:q
 yarn rmq:b
 ```
 
-> use these when minimum one consumer is active.
+> Use these when minimum one consumer is active.
