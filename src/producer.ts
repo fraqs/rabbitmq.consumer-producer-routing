@@ -13,9 +13,9 @@ if (!RMQ_HOST || !RMQ_EXCHANGE) throw Error('Missing values <RMQ_HOST> and/or <R
 
 // Routing key to route for a specific user (mail)
 const routingKey: string = process.argv[2] || 'main';
-const msg: string = process.argv.slice(2).join(' ') || 'Hi RMQ!';
+const msg: string = process.argv.slice(3).join(' ') || 'Hi RMQ!';
 
-console.log(`Starting <PRODUCER> with routing key: ${routingKey}...`);
+console.log(`Starting <PRODUCER> with routing key: <${routingKey}>...`);
 
 (async () => {
 	const connection = await amqp.connect(RMQ_HOST);

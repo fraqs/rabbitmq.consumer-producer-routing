@@ -22,7 +22,7 @@ function callback(msg): void {
 	// console.log(msg.fields.routingKey);
 }
 
-console.log(`Starting <CONSUMER> with routing key: ${routingKey}...`);
+console.log(`Starting <CONSUMER> with routing key: <${routingKey}>...`);
 
 (async () => {
 	const connection = await amqp.connect(RMQ_HOST);
