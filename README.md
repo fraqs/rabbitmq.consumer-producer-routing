@@ -32,7 +32,7 @@ yarn rmq
 > Remember to close the service after using it.
 ### 3. Start a Consumer
 
-`<routing key>` defines which route the exchange should direct to.
+`<routing key>` defines which route the exchange should direct to. Has a fallback value of `main`.
 
 ```bash
 # bash
@@ -43,8 +43,8 @@ yarn con <routing key>
 
 ### 4. Start a Producer
 
-`<routing key>` defines which route the exchange should direct to.
-`<payload>` is the content to publish *(can contain spaces)*.
+`<routing key>` defines which route the exchange should direct to. Has a fallback value of `main`.
+`<payload>` is the content to publish *(can contain spaces)*. Has a fallback value of `Hi RMQ!`.
 
 ```bash
 # bash
