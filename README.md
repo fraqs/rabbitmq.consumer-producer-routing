@@ -1,5 +1,5 @@
-# RabbitMQ | Consumer/ Producer Routing
-_Stephan Duelund Djurhuus_
+<h1 align="center">RabbitMQ Routing</h1>
+<p align="center"><i>Stephan Duelund Djurhuus</i></p>
 
 <p align="center">
     <img src="https://res.cloudinary.com/cuongbangoc/image/upload/v1440913221/rabbit-logo_dfefmx.jpg" alt="Cover Image"/>
