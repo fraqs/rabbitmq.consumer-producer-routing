@@ -5,6 +5,9 @@
     <img src="https://res.cloudinary.com/cuongbangoc/image/upload/v1440913221/rabbit-logo_dfefmx.jpg" alt="Cover Image"/>
 </p>
 
+[Reference](https://www.rabbitmq.com/tutorials/tutorial-four-javascript.html)
+
+
 ## Environment
 Runs on MacOS and uses [brew]() as package manager for [RabbitMQ].
 > The script 'rmq', 'rmq:q' & 'rmq:b' only supports MacOS [see](https://www.rabbitmq.com/cli.html).

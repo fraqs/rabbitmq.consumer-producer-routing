@@ -2,10 +2,6 @@ import * as amqp from 'amqplib/channel_api';
 import dotenv from 'dotenv';
 dotenv.config();
 
-/** Reference
- * https://www.rabbitmq.com/tutorials/tutorial-four-javascript.html
- */
-
 const RMQ_HOST: string | undefined = process.env.RMQ_HOST;
 const RMQ_EXCHANGE: string | undefined = process.env.RMQ_EXCHANGE;
 
