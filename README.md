@@ -10,7 +10,7 @@
 
 ## Environment
 Runs on MacOS and uses [brew]() as package manager for [RabbitMQ].
-> The script 'rmq', 'rmq:q' & 'rmq:b' only supports MacOS [see](https://www.rabbitmq.com/cli.html).
+> The script **rmq**, **rmq:q** & **rmq:b** only supports MacOS [see](https://www.rabbitmq.com/cli.html).
 ## Prerequisite
 * [Node](https://nodejs.org/en/)
 * [RabbitMQ](https://www.rabbitmq.com/install-homebrew.html)
