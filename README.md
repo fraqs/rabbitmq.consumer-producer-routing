@@ -51,7 +51,7 @@ yarn con <routing key>
 
 ```bash
 # bash
-yarn con <routing key> <payload>
+yarn pro <routing key> <payload>
 ```
 
 ### Analyse Queues and Bindings
