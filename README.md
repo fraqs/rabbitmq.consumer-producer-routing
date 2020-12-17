@@ -19,6 +19,8 @@ Runs on MacOS and uses [brew]() as package manager for [RabbitMQ].
 
 > **sudo** is used on RabbitMQ commands, see [package.json](package.json) to validate scripts.
 
+> To access http://localhost:15672/ use **guest** as username and password.
+
 ### 1. Install Packages
 
 ```bash

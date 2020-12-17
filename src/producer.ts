@@ -1,6 +1,7 @@
 import * as amqp from 'amqplib/channel_api';
 import dotenv from 'dotenv';
 dotenv.config();
+
 const RMQ_HOST: string | undefined = process.env.RMQ_HOST;
 const RMQ_EXCHANGE: string | undefined = process.env.RMQ_EXCHANGE;
 const RMQ_EXCHANGE_TYPE: string | undefined = process.env.RMQ_EXCHANGE_TYPE;
